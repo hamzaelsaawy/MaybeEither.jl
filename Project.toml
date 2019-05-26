@@ -1,0 +1,14 @@
+name = "MaybeEither"
+uuid = "444e50c2-7fb8-11e9-3072-fda1ba699346"
+keywords = ["julia", "option types", "maybe", "either", "nothing"]
+authors = ["Hamza El-Saawy <hamza.elsaawy@gmail.com>"]
+version = "0.1.0"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
